@@ -1,0 +1,145 @@
+@media only screen and (max-width:1024px){
+    .hero-text-box h1{
+        font-size: 25px;
+    }
+    .team-section img{
+        width: 180px;
+        height: 180px;
+    }
+    html{
+        font-size: 48.5%;
+    }
+}    
+@media only screen and (max-width:980px){
+    .mobile-menu{
+        display: block !important;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .main-nav{
+        display: none;
+    }
+    .testimonial .client-photo img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .testimonial .client-photo{
+        width: 100%;
+        float: none;
+        text-align:center;
+        margin-bottom: 5rem;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    .box p{
+        font-size: 1.8rem;
+        margin: 3rem auto;
+        width: 62.2%;
+    }
+    .portfolio-image{
+        width: 80%;
+        height: auto;
+    }
+
+}
+@media only screen and (max-width:856px){
+    body{
+        width: 856px;
+    }
+    .logo{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (max-width:768px){
+    html{
+        font-size: 42.5%;
+    }
+    .services-icon {
+        height: 13rem;
+    }
+    .overlay a{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .services-icon {
+        height: 19rem;
+    }
+    h3{
+        font-size: 4.4rem;
+    }
+    .logo {
+        height: 5.5rem;
+    }
+    h2 {
+        font-size: 6rem;
+        font-weight: 500;
+    }
+    
+    .little-description,.testimonial .little-description,.contact-section .little-description {
+    font-size: 18px;
+    }
+    
+    .box p {
+    font-size: 18px;
+    }
+    .role {
+        font-size: 22px;
+    }
+    .btn:link, .btn:visited,.btn,.contact-section input[type='submit']{
+        font-size: 16px;
+    }
+    .portfolio-filter button{
+        font-size: 18px;
+    }
+    .portfolio-section h4{
+        font-size: 18px;
+    }
+    .contact-section form ::-webkit-input-placeholder{
+        font-size: 14px;
+    }
+    .contact-section form :-ms-input-placeholder{
+        font-size: 14px;
+    }
+    .contact-section form ::-ms-input-placeholder{
+        font-size: 14px;
+    }
+    .contact-section form ::placeholder{
+        font-size: 14px;
+    }
+    .contact-section input[type='text'],
+    .contact-section input[type='email'],
+    .contact-section textarea{
+        font-size: 17px;
+    }
+    .testimonial .client-photo img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .footer-section li{
+        font-size: 20px;
+    }
+    .team-section img{
+        width: 300px;
+        height: 300px;
+    }
+    .testimonial .col:nth-child(1),
+    .testimonial .col:nth-child(2){
+        margin-bottom: 10rem;
+    }
+    .hero-text-box h1 {
+        font-size: 36px;
+    }
+}
